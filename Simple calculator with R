@@ -1,0 +1,11 @@
+> x = 6
+> y = 7
+> z = "s"
+> result = switch(
++ z,
++ "a" = cat("Addition =", x+y),
++ "b" = cat("subtraction =", x-y),
++ "c" = cat("Division =", x/y),
++ "s" = cat("Multiplication =", x*y)
++ )
+Multiplication = 42
